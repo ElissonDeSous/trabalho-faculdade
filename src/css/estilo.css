@@ -68,11 +68,7 @@ li{
     main{
         width: 100%;
     }
-    header{
-        border: solid red 1px;
-    }
     .topo{
-        border: solid red 1px;
        display: flex;
         flex-direction: column;
        justify-content: space-between;
@@ -122,10 +118,10 @@ li{
         display: none;
      }
      #banner{
-    background-color: #fc9700;
-    display: none;
-    width:300px;
-    height: 400px;
+       background-color: #fc9700;
+       display: none;
+       width:300px;
+       height: 400px;
 
 }
 .tioze{
