@@ -14,7 +14,7 @@ header{
 #pesquisar{
     height: 40px;
     width: 588px;
-    border-radius: 10px;
+    border-radius: 5px;
    padding-left: 20px;
    font-size: 18px;
 
@@ -65,9 +65,14 @@ li{
     justify-content: center;
 }
 @media(max-width : 700px){
-    main{
-        width: 100%;
-    }
+   header{
+      display: flex;
+      justify-content: space-between;
+   }
+   .linkResponsivo{
+      font-size: 24px;
+      font-weight: bold;
+   }
     .topo{
        display: flex;
         flex-direction: column;
@@ -79,10 +84,12 @@ li{
       
     }
     #pesquisar{
-        width: 250px;
+        width: 350px;
+        position: relative;
+        top: 30px;
     }
     h1{
-        font-size: 24px;
+        font-size: 30px;
     }
     .h2{
         display: none;
@@ -91,7 +98,7 @@ li{
         position: absolute;
         display: flex;
         position: relative;
-        right: 180px;
+        left: 180px;
         bottom: 80px;
 
     }
@@ -106,6 +113,8 @@ li{
         background-color: rgb(255, 255, 4);
         height: 100%;
         width: 100%;
+         transition: opacity 0.5s ease;
+         opacity: 1;
      }
      ul{
          display: flex;
@@ -116,6 +125,8 @@ li{
      
      #menu{
         display: none;
+        font-weight: bold;
+
      }
      #banner{
        background-color: #fc9700;
