@@ -66,10 +66,9 @@ li{
     justify-content: center;
 }
 .btn-pesquisar-desktop{
-    width: 300px; 
-    height: 30px;
-    color: red;
-    border: solid 1px red;
+    width: 40px; 
+    height: 40px;
+    color: silver;
 }
 
 /* MEDIA QUERY - ALTERAR SOMENTE EM CASO DE RESPONSIVIDADE */ 
