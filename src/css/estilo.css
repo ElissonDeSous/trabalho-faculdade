@@ -1,3 +1,4 @@
+/* CSS NATIVO DOC HTML */
 *{
     padding: 0;
     margin: 0 ;
@@ -64,6 +65,29 @@ li{
     height: 500px;
     justify-content: center;
 }
+.btn-pesquisar-desktop{
+    width: 40px; 
+    height: 40px;
+    color: silver;
+    position: absolute;
+    left: 930px;
+    border-radius: 5px;
+
+}
+.Painel-login{
+    width: 150px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.Entrar{
+width: 50px;
+}
+.Cadastro{
+width: 50px;
+}
+
+/* MEDIA QUERY - ALTERAR SOMENTE EM CASO DE RESPONSIVIDADE */ 
 @media(max-width : 700px){
    header{
       display: flex;
@@ -83,7 +107,7 @@ li{
        height: 100%;
       
     }
-    #pesquisar{
+    #pesquisar{ 
         width: 350px;
         position: relative;
         top: 30px;
@@ -134,8 +158,5 @@ li{
        width:300px;
        height: 400px;
 
-}
-.tioze{
-    width: 300px;
 }
 }
