@@ -59,12 +59,6 @@ li{
 .openMenu{
     display: none;
 }
-#banner{
-    background-color: #fc9700;
-    display: flex;
-    height: 500px;
-    justify-content: center;
-}
 .btn-pesquisar-desktop{
     width: 40px; 
     height: 40px;
@@ -152,11 +146,7 @@ width: 50px;
         font-weight: bold;
 
      }
-     #banner{
-       background-color: #fc9700;
-       display: none;
-       width:300px;
-       height: 400px;
+    
 
-}
+
 }
